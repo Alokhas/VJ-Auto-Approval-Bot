@@ -13,7 +13,7 @@ class Config:
     CHID = int(getenv("CHID", "-1001599827340")) # Make Bot Admin In This Channel
     # Admin Or Owner Id Below
     SUDO = list(map(int, getenv("SUDO", "6667876837").split()))
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://FILES:FILES@cluster0.j83kdbu.mongodb.net/?retryWrites=true&w=majority")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://ALLU:ALLU@cluster0.5blb9tp.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
 
